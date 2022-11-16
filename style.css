@@ -1,0 +1,539 @@
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-X: hidden;
+}  
+a{
+  text-decoration: none;
+}
+
+/* -------------------------------------navbar---------------------------------------*/
+#navBar{
+display: flex;
+justify-content: flex-end;
+position:fixed;
+width: 100%;
+background-color:rgb(229,236,251);
+z-index: 1000;
+
+}
+
+#text{
+  position: relative;
+  left: 15rem;
+  bottom: 10rem;
+}
+
+/* #text2{
+  position: relative;
+  bottom:1rem;
+}
+#text3{
+  position: relative;
+  bottom:6rem;
+} */
+
+#navBar ul
+{
+    width: auto;
+    height: 5rem;
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    list-style: none;
+    text-decoration: none;
+
+
+ }
+#navBar ul li
+{
+  margin-right: 6rem;
+  margin-bottom: 4rem;
+  text-decoration: none;
+}
+#sign{
+  position:relative;
+  height:7rem;
+ right: 58rem;
+}
+.main{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#sign:hover{
+
+    transform: scale(1.1);
+    transition:all 0.3s;
+  }
+.main h2:hover{
+ color:blue;
+}
+
+ #link {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 10rem;
+
+
+}
+#link a{
+  margin: 1rem;
+  margin-top:  1rem;
+  
+}
+
+
+
+
+/* --------------------------------------------------navbar--------------------------------------------------- */
+/* -------------------------------maindiv------------------------ */
+   #maindiv{
+    height:70rem;
+    width: 149rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(215,226,238);
+
+   }
+   #text{
+    height: 40%;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+   #homeImg img{
+    border-radius: 500px  ;
+    position: relative;
+    right: 2rem;
+  }
+  #homeImg img:hover{
+   
+      transform: scale(1.2);
+      transition:all 0.3s;
+    }
+  #subMainDiv{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    /* right: 8rem; */
+    background-color:rgb(229,236,251);
+  }
+  
+
+
+  #maindiv{
+    height:80rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  #text{
+    width:100%;
+    margin-bottom: -8rem;
+    margin-left:3rem;
+  }
+  #homeimg{
+    width:100%;
+  }
+  #homeimg:hover{
+    
+      transform: scale(1.2);
+      transition:all 0.3s;
+    }
+    .text1{
+      line-height: 2rem;
+    }
+  
+
+/* -------------------------------------------media query------------------------------------------------------ */
+     
+
+
+
+    /* ------------------------------------------about me---------------------------------------------- */
+
+
+    #aboutMe{
+      height:70rem;
+      width: 149rem;
+      background-color:rgb(215 226 238);
+    }
+     #userImage{
+      height:4rem;
+      width:10rem;
+      position: relative;
+      left: 55rem;
+     }
+
+    #aboutMeText{
+      font-size: 5rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      height:3rem;
+      width: 30rem;
+      position: relative;
+      left: 60rem;
+      bottom: -1rem;
+      color: black;
+    }
+    #upperAboutMe{
+      width:149rem;
+      height:3rem;
+
+    }
+    #info{
+      display: block;
+      height:3rem;
+      width: 3rem;
+    }
+
+   #about{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    left: 15rem;
+    top: 5rem;
+    background-color:rgb(229,236,251);
+   }
+
+   #about img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 200px;
+    margin-right: -5rem;
+    }
+    #about img:hover{
+      transform: scale(1.1);
+      transition:all 0.3s;
+    }
+   #bio ul{
+    width:40rem;
+    height: 30rem;
+    font-size: 2rem;
+    font-weight: 500;
+    list-style-type: none;
+   }
+   
+
+  
+/* ----------------------------------------------education--------------------------------------------------  */
+   
+
+
+
+#lorem{
+      height:68rem;
+      width:149rem;
+      /* border: 1px solid red; */
+      background-color:rgb(215,226,238);
+    
+    }
+    #lorem h1{
+      font-size: 5rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      padding-top: 3rem;
+      color: black;
+    }
+    
+    #insideLorem{
+      height:80%;
+      width: 80%;
+      border: 1px solid white;
+      border-radius:30px;
+      /* margin: 10px; */
+      background-color: rgb(229,236,251);
+      /* position: relative;
+      left:10%;
+      bottom: -10%; */
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 15rem;
+      top: -3rem;
+      
+    }
+  #insideLorem img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+    #lorem div p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid blue;
+      height: 30rem;
+    }
+    #firstEdu{
+      display: flex;
+      justify-content:space-around;
+      margin: 10px;
+      position: relative;
+      top: 5rem;
+    }
+    #firstEdu img{
+      height:23rem;
+      width:30rem;
+      display: flex;
+      justify-content: center;
+      border-radius: 20px;
+  }
+  /* #firstEdu:hover{
+      transform : scale(1.1);
+     transition: all 0.3s;
+  } */
+
+    #collegeText{
+      width:50%;
+      height:50%;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+    #school{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      right:40px;
+    }
+    
+    #schoolText{
+      width:45%;
+      height:50%;
+      font-size: 3rem;
+      font-weight: 500;
+      position: relative;
+      top: 7rem;
+      right: 2rem;
+    }
+
+
+    #jnv{
+      height: 19rem;
+      width:26%;
+      padding-left: 7rem;
+      position: relative;
+      top: 7rem;
+      left:-2rem;
+      border-radius: 20px 20px;
+    }
+
+
+
+
+
+    
+   /* ----------------------------------------------skills------------------------------------------ */
+
+
+   #skills{
+    height:68rem;
+    width:150rem;
+    background-color: rgb(215,226,238);
+
+   }
+    
+     #subSkills{
+      height: 80%;
+      width: 80%;
+      border: 1px solid white;
+      border-radius: 40px;
+      display:flex;
+      position: relative;
+      left: 15rem;
+      top:-3rem;
+      flex-direction: column;
+      background-color:rgb(255,255,255);
+      background-color: rgb(229,236,251);
+     }
+
+      #sub1 img:hover{
+        transform: scale(1.1);
+        transition:all 0.3s;
+      }
+      #sub2 img:hover{
+        transform: scale(1.1);
+        transition:all 0.3s;
+      }
+  
+    #skills h1{
+      font-size: 5rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+      z-index: 10;
+      color: rgb(0, 0, 0);
+    }
+    #sub1{
+      display: flex;
+      position: relative;
+      bottom: -1rem;
+      justify-content: center;
+      align-items: center;
+    }
+    #sub1 img{
+      margin-right:- 3rem;
+      height: 20rem;
+      width: 20rem;
+      padding: 2rem;
+    }
+    #sub2{
+      display: flex;
+      position: relative;
+      bottom: -4rem;
+    
+      justify-content: center;
+      align-items: center;
+    }
+    #sub2 img{
+      display:flex;
+      height: 20rem;
+      width: 20rem;
+      padding: 2rem;
+    }
+    @media screen and (max-width:370px){
+     
+     #skills{ display: flex;
+      flex-wrap: wrap;}
+    }
+
+
+/* ----------------------------------------------Contacts------------------------------------------------- */
+
+
+#contactBox{
+  height:70rem;
+  width: 150rem;
+  box-sizing: border-box;
+  background-color: rgb(215,226,238);
+}
+#subContactBox{
+  height:80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  background-color:rgb(229,236,251);
+  border-radius: 60px;
+  position: relative;
+  top: 5rem;
+  left: 15rem;
+}
+#contacttext{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(255, 0, 0);
+  position: relative;
+  top: -400px;
+}
+#contactPhoto{
+  height: 80%;
+  width: 40%;
+  position: relative;
+  top: 0rem;
+  border-radius: 40px;
+}
+#contactPhoto:hover{
+  transform: scale(1.1);
+  transition:all 0.3s;
+}
+#contactform:hover{
+  transform: scale(1.1);
+  trasition: all .3s;
+}
+.profileTwo{
+  width: 50%;
+  
+}
+.profileTwo img{
+  width: 60%;
+  /* height: 80%; */
+  object-fit: cover;
+}
+.contactForm{
+  background:rgb(229,236,251);
+  display: flex;
+  width: 30%;
+  padding: 2rem;
+  margin: 2rem;
+  flex-direction: column;
+  border-radius: 4rem;
+  margin-right: 5%;
+  box-shadow:  0px 0px 8px 3px #898686;
+}
+
+.contactForm hr{
+  width: 90%;
+}
+  
+input, textarea, .submitForm{
+  padding: 0.8rem;
+  width: 80%;
+  background:white;
+  /* border: #edf2f4 2px ridge; */
+  color:rgb(215,226,238);
+  margin: 1rem;
+  border-radius:10px;
+  /* max-width:200px; */
+}
+
+.submitForm{
+margin-left: 33.3%;
+width: auto;
+}
+
+/* -----------------------------------------------------media queries------------------------------------------ */
+
+@media screen and (max-width:370px)
+{
+  .box{
+    width:30%;
+  }
+}
+
+
+    /* Media query */
+    @media screen and (max-width:950px) {
+      .contactForm{
+          width: 35%;
+      }
+
+  }
+
+
+
+
+   /* Contact Form */
+
+   @media screen and (max-width:767px) {   
+  
+#contactBox{
+    justify-content: center;
+}
+.contactForm{
+    /* margin-right: 7%; */
+    margin-right:0 ;
+    width: 45%;
+}
+   }
+
+
+   @media screen and (max-width:600px) {
+    /* Contact Form */
+    .contactForm{
+      width: 90%;
+      margin: 2rem 12rem 2rem auto;
+  }}
